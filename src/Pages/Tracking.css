@@ -1,0 +1,76 @@
+/* // TrackingNoPage.css */
+
+.tracking-no-page {
+  height: 100vh;
+  background-image: url('https://picsum.photos/1920/1080');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tracking-no-page__title {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.tracking-no-page__label {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.tracking-no-page__input {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  text-align: center;
+}
+
+.tracking-no-page__input:focus {
+  outline: none;
+}
+
+.tracking-no-page__button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  cursor: pointer;
+}
+
+.tracking-no-page__button:focus {
+  outline: none;
+}
+
+.tracking-no-page__button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.tracking-no-page__button:active {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.tracking-no-page__error {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: red;
+}
+
+.tracking-no-page__error--hidden {
+  display: none;
+}
+
+.tracking-no-page__error--visible {
+  display: block;
+}
+

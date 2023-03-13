@@ -1,0 +1,79 @@
+/* .product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+  }
+  
+  .product-image {
+    flex: 1 1 350px;
+    margin-right: 2rem;
+  }
+  
+  .product-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-details {
+    flex: 1 1 450px;
+  }
+  
+  .product h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .product-size label,
+  .product-color label,
+  .product-accessories label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .product-size input[type="radio"],
+  .product-color input[type="radio"],
+  .product-accessories input[type="checkbox"]
+  .product-size input[type="radio"] + span,
+  .product-color input[type="radio"] + span,
+  .product-accessories input[type="checkbox"] + span {
+    margin-left: 0.5rem;
+  }
+  
+  .product-accessories input[type="checkbox"] + span::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #ccc;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+  }
+  
+  .product-accessories input[type="checkbox"]:checked + span::before {
+    content: '\2713';
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.5rem;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #0062cc;
+  }
+     */

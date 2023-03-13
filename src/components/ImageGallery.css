@@ -1,0 +1,63 @@
+*{
+    /* background-color: #eeecec; */
+}
+
+.ImageGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    gap: 20px;
+    background-color:rgb(218, 220, 222);
+  }
+/* make both title and Description to look good at the center please */
+/* i want image gallery title and description to be the up and down title up and then after some space description please do something so that look may be like that please please please */
+  .ImageGallery__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .ImageGallery__item {
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    height: 300px;
+    border-radius: 8px;
+  }
+  
+  .ImageGallery__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .ImageGallery__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(100%);
+  }
+  
+  .ImageGallery__item:hover .ImageGallery__overlay {
+    transform: translateY(0);
+  }
+  
+  .ImageGallery__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .ImageGallery__description {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
